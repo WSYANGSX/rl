@@ -1,14 +1,15 @@
-import argparse
-from src.networks import MLBasicLayer
-from src.policy import Reinforce
-from src.data.collector import Collector
-from src.data.buffer import ReplayBuffer
-from src.networks.continuous import ActorProb, Critic
-from src.env import MountainCar
-import tensorflow as tf
-from src.trainer import Online
 import os
+import argparse
 import numpy as np
+from rl.networks import MLBasicLayer
+from rl.policy import Reinforce
+from rl.data.collector import Collector
+from rl.data.buffer import ReplayBuffer
+from rl.networks.continuous import ActorProb, Critic
+from rl.env import MountainCar
+from rl.trainer import Online
+import tensorflow as tf
+
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 

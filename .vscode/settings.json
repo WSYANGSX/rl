@@ -7,10 +7,12 @@
     "python.linting.pylintEnabled": false,
     "python.autoComplete.addBrackets": true,
     "python.autoComplete.extraPaths": [
-        "/home/yangxf/RL",
+        "/home/yangxf/rl_project/src",
+        "/home/yangxf/rl_project/examples",
     ],
     "python.analysis.extraPaths": [
-        "/home/yangxf/RL",
+        "/home/yangxf/rl_project/src",
+        "/home/yangxf/rl_project/examples"
     ],
     "editor.rulers": [
         80,

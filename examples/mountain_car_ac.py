@@ -1,11 +1,11 @@
 import time
 import tensorflow as tf
-from src.env import MountainCar
-from src.networks import ActorProb, Critic
-from src.data.buffer import ReplayBuffer
-from src.data.collector import Collector
-from src.policy import ACPolicy
-from src.networks import MLBasicLayer
+from rl.env import MountainCar
+from rl.networks import ActorProb, Critic
+from rl.data.buffer import ReplayBuffer
+from rl.data.collector import Collector
+from rl.policy import ACPolicy
+from rl.networks import MLBasicLayer
 import argparse
 
 
