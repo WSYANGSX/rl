@@ -93,8 +93,7 @@ class BasePolicy(ABC, keras.Model):
         """
         pass
 
-    def soft_update(self, tgt: keras.Model, : keras.Model,
-                    tau: float) -> None:
+    def soft_update(self, tgt: keras.Model, tau: float) -> None:
         """Softly update the parameters of target module towards the parameters of source module."""
         pass
 
