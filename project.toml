@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rl"
+authors = [
+    {name = "Xiaofan Yang", email = "1062033103@qq.com"},
+]
+description = "reinforcement learning architecture"
+readme = "README.rst"
+requires-python = ">=3.7"
+
